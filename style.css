@@ -1,26 +1,50 @@
 body {
     background-color: azure;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 h1 {
     color:red;
+    font-size:2em;
+    font-weight: 900;
 }
 
-div {
+#main {
+    border: 2px solid rgb(203, 79, 16);
+    padding:8px;
+}
+
+.sezione1 {
+    border: 2px solid blue;
+    padding:8px;
+}
+
+.firstdiv p {
+    font-size: 24px;
+}
+
+.sezione1 div {
     border: 2px solid green;
     margin: 4px 0;
     padding:8px 18px;
+    max-width: 300px;
+    
+    display: inline-block;
 }
 .firstdiv {
     background-color: #8a1274;
-    color:white;
-
+    color:purple;
+    border-radius: 30px 10px 20px 0px;
+    background-image: url(https://picsum.photos/500/250);
+    position: sticky;
+    top: 10px;
+    height: 200px;
+    width: 100%;;
 }
 
 
-#header {
-
+ul li {
+    display: inline;
 }
 
